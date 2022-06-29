@@ -13,10 +13,25 @@
 {% endblock %}
 
 {% block content %}
+
+<div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+	<div class="govuk-notification-banner__header">
+	  <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+		Important
+	  </h2>
+	</div>
+	<div class="govuk-notification-banner__content">
+	  <p class="govuk-notification-banner__heading">
+		A permit transfer request has been recieved. <br>
+		<a class="govuk-notification-banner__link" href="#">View permit</a>
+	  </p>
+	</div>
+  </div>
+
 <div class="govuk-grid-row" id="arco-dashboard">
   <div class="govuk-grid-column-full">
     <h1 class="govuk-heading-l">
-      Arco Generators Ltd
+      PowerGen Ltd
     </h1>
 
 
@@ -39,8 +54,8 @@
 			</div>
 			<br>
 			<div class="govuk-se-dashboard--info">
-				<strong class="govuk-tag govuk-tag--red">
-		  		1 due to expire in July
+				<strong class="govuk-tag govuk-tag--green">
+		  		1 transfer request is waiting
 				</strong>
 			</div>
 		</div>
@@ -54,7 +69,7 @@
 			<br>
 			<div class="govuk-se-dashboard--info">
 				<strong class="govuk-tag govuk-tag--green">
-		  		7 new
+		  		1 new
 				</strong>
 			</div>
 		</div>
@@ -71,7 +86,7 @@
 			<br>
 			<div class="govuk-se-dashboard--info">
 				<strong class="govuk-tag govuk-tag--green">
-		  		 3 active
+		  		 1 active
 				</strong>
 			</div>
 		</div>
